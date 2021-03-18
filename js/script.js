@@ -18,7 +18,7 @@ $('.todo-list__delete').click(function (){
 	$(this).parent().remove();
 });
 
-$('aggiungi').keydown(function (){
+$('#aggiungi').keydown(function (){
 	if(evento.which == 13){
 		var testo = $(this).val();
 		if (testo!=''){
