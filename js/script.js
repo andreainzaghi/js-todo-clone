@@ -34,7 +34,7 @@ $(document).on('click','.todo-list__delete',function(){
 	setTimeout(function () {
   	 $(questo).parent().remove();
 
-	}, 10000 , questo);
+	}, 5000 , questo);
 
 }
 );
